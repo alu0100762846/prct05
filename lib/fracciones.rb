@@ -38,4 +38,14 @@ class Fraccion
 		reducir (resta)							#Simplificamos el resultado
 	end	
 	
+	def * (fraccion)
+		multiplicacion = Fraccion.new(@num*fraccion.num, @den*fraccion.den)
+		reducir (multiplicacion)					#Simplificamos el resultado
+	end
+	
+	def / (fraccion)
+		division = Fraccion.new(@num*fraccion.den, @den*fraccion.num)
+		reducir (division)						#Simplificamos el resultado
+	end
+	
 end
