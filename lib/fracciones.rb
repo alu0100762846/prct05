@@ -49,3 +49,29 @@ class Fraccion
 	end
 	
 end
+
+#Pruebas
+
+fraccion1 = Fraccion.new(1,3)		
+fraccion2 = Fraccion.new (4,10)	
+puts "Fraccion 1"
+puts "#{fraccion1}"
+puts "Fraccion 2"
+puts "#{fraccion2}"
+
+fraccion3 = fraccion1+fraccion2		
+puts "Suma"
+puts "#{fraccion3}"
+
+fraccion3 = fraccion1-fraccion2		
+puts "Resta"
+puts "#{fraccion3}"
+
+
+fraccion3 = fraccion1*fraccion2		
+puts "Multiplicacion"
+puts "#{fraccion3}"
+
+fraccion3 = fraccion1/fraccion2		
+puts "Division"
+puts "#{fraccion3}"
