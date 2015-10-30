@@ -13,4 +13,12 @@ class Fraccion
 		@num, @den = num, den
 	end
 	
+	def initialize (num, den)
+		@num, @den = num, den						#Definimos las variables
+	end
+
+	def to_s
+		"#{@num}/#{@den}"						#Muestra numerador/denominador
+	end
+	
 end
